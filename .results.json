@@ -1,0 +1,206 @@
+{
+  "stats": {
+    "suites": 6,
+    "tests": 5,
+    "passes": 0,
+    "pending": 0,
+    "failures": 5,
+    "start": "2021-07-26T14:11:48.605Z",
+    "end": "2021-07-26T14:11:49.167Z",
+    "duration": 562
+  },
+  "tests": [
+    {
+      "title": "returns the customerName",
+      "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
+      "file": "/Users/joerenteria/Development/code/phase1/phase-1-scope-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'bob'",
+        "showDiff": true,
+        "expected": "bob",
+        "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:4:38)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected undefined to equal 'bob'",
+            "showDiff": true,
+            "expected": "bob",
+            "multiple": "AssertionError: expected undefined to equal 'bob'",
+            "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:4:38)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "modifies the customerName variable",
+      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
+      "file": "/Users/joerenteria/Development/code/phase1/phase-1-scope-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'bob'",
+        "showDiff": true,
+        "expected": "bob",
+        "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:10:38)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected undefined to equal 'bob'",
+            "showDiff": true,
+            "expected": "bob",
+            "multiple": "AssertionError: expected undefined to equal 'bob'",
+            "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:10:38)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "setBestCustomer",
+      "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
+      "file": "/Users/joerenteria/Development/code/phase1/phase-1-scope-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: setBestCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:21:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "setBestCustomer is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: setBestCustomer is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "overwrites the best customer",
+      "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
+      "file": "/Users/joerenteria/Development/code/phase1/phase-1-scope-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: overwriteBestCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:29:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "overwriteBestCustomer is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: overwriteBestCustomer is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "unsuccessfully tries to reassign the least favorite customer",
+      "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
+      "file": "/Users/joerenteria/Development/code/phase1/phase-1-scope-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: changeLeastFavoriteCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:37:14)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "changeLeastFavoriteCustomer is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: changeLeastFavoriteCustomer is not defined"
+          }
+        ]
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "returns the customerName",
+      "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
+      "file": "/Users/joerenteria/Development/code/phase1/phase-1-scope-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'bob'",
+        "showDiff": true,
+        "expected": "bob",
+        "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:4:38)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected undefined to equal 'bob'",
+            "showDiff": true,
+            "expected": "bob",
+            "multiple": "AssertionError: expected undefined to equal 'bob'",
+            "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:4:38)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "modifies the customerName variable",
+      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
+      "file": "/Users/joerenteria/Development/code/phase1/phase-1-scope-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'bob'",
+        "showDiff": true,
+        "expected": "bob",
+        "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:10:38)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "expected undefined to equal 'bob'",
+            "showDiff": true,
+            "expected": "bob",
+            "multiple": "AssertionError: expected undefined to equal 'bob'",
+            "stack": "AssertionError: expected undefined to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:10:38)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "setBestCustomer",
+      "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
+      "file": "/Users/joerenteria/Development/code/phase1/phase-1-scope-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: setBestCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:21:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "setBestCustomer is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: setBestCustomer is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "overwrites the best customer",
+      "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
+      "file": "/Users/joerenteria/Development/code/phase1/phase-1-scope-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: overwriteBestCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:29:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "overwriteBestCustomer is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: overwriteBestCustomer is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "unsuccessfully tries to reassign the least favorite customer",
+      "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
+      "file": "/Users/joerenteria/Development/code/phase1/phase-1-scope-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: changeLeastFavoriteCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:37:14)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "changeLeastFavoriteCustomer is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: changeLeastFavoriteCustomer is not defined"
+          }
+        ]
+      }
+    }
+  ],
+  "passes": []
+}
